@@ -1,0 +1,17 @@
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.iws
+*.log
+
+.project
+.classpath
+.settings
+
+target
+.idea/
+
+git.head.txt
+git.log.txt
