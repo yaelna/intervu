@@ -8,13 +8,6 @@ class Compaction {
      * @param source source array to be compacted
      */
     static void compact(int[] source) {
-        int j=0;
-        for (int i=0; i<source.length && source[i] != 0; i++) {
-            if (!(i>0 && source[i]==1 && source[i-1]==1)) {
-                source[j] = source[i];
-                j++;
-            }
-        }
-        source[j] = 0;
+        //TODO implement
     }
 }
