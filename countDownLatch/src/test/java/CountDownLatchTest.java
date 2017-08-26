@@ -59,10 +59,9 @@ public class CountDownLatchTest {
 
     @Test
     public void test_timeout() throws  InterruptedException {
+        /*
+            Write a test that tests latch.await( timeout )
+         */
         //TODO implement
-        final ICountDownLatch latch = new MyCountDownLatch(1);
-
-        Assert.assertFalse(latch.await(1000));
-        Assert.assertEquals(1, latch.getCount());
     }
 }
